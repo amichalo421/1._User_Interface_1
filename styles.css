@@ -137,6 +137,11 @@ footer .footer-content .copyright {
   text-align: center;
 }
 
+/* REMOVE FOOTER DECORATION */
+/* .footnav a {
+  text-decoration: none;
+} */
+
 /* //STRETCH// //HOVER GROW!!!// */
 .hvr-grow {
   display: inline-block;
@@ -154,3 +159,16 @@ footer .footer-content .copyright {
 .hvr-grow:active {
   transform: scale(1.1);
 }'
+
+/* STRETCH GOAL 2 NEW PAGE "COOKIES */
+
+section.ck * {
+  margin-top: 25px;
+  border-top: 25px;
+}
+
+.container img {
+  max-width: 400px;
+  max-height: 200px;
+  margin-left: 600px;
+}
