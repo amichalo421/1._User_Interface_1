@@ -21,6 +21,7 @@ Stretch Task: Pick a navigation item and create a new page with the same header 
 
 * {
   color: #3C373B;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -47,6 +48,13 @@ line-height: 1.4;
 img {
   border-radius: 10px;
 }
+
+.img1 {
+  width: 1
+  border: 4px solid blue;
+  
+}
+
 
 .content-row {
   display: flex;
@@ -167,8 +175,17 @@ section.ck * {
   border-top: 25px;
 }
 
-.container img {
-  max-width: 400px;
-  max-height: 200px;
-  margin-left: 600px;
+.container .ck img {
+  width: 400px;
+  max-height: 300px;
+  margin-left: 50px;
+}
+
+h2.cookie {
+  margin: 20px;
+  top-margin: 10px;
+}
+
+p.cookie {
+  margin-left: 30px;
 }
